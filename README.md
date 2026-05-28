@@ -82,6 +82,6 @@ left them out of the price averages on purpose.
 For the price averages I only kept prices between €10 and €1,000, so a few
 extreme values do not make the average misleading.
 
-## Author
+## Project Creator
 
-Antonio Schmidtgen
+Keston Antonio Schmidtgen

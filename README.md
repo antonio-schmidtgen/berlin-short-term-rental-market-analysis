@@ -27,8 +27,23 @@ The data comes from Inside Airbnb (insideairbnb.com), Berlin, scraped on
 | calendar.csv  | 5,210,011 | One row per listing per day         |
 | reviews.csv   | 635,471   | One row per guest review            |
 
-The raw files are kept gzipped in `data/raw/` and I do not edit them. The
-cleaning notebook reads them and writes cleaned versions into `data/clean/`.
+### Getting the data
+
+The two larger raw files (`calendar.csv.gz` and `reviews.csv.gz`) are not
+stored in this repository, because large data files do not belong in version
+control. Only the smaller `listings.csv.gz` is included here so the structure
+is visible.
+
+To run the project yourself, download the Berlin files from Inside Airbnb at
+insideairbnb.com/get-the-data (Berlin section) and place all three in
+`data/raw/`:
+
+- `listings.csv.gz` (already included here)
+- `calendar.csv.gz`
+- `reviews.csv.gz`
+
+The cleaning notebook reads these gzipped files directly and writes cleaned
+versions into `data/clean/`. The raw files are never edited.
 
 ## Tools
 

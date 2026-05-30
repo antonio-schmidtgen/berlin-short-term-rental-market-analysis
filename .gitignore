@@ -218,5 +218,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Large raw data files - too big for GitHub
-   data/raw/reviews.csv.gz
-   data/raw/calendar.csv.gz
+data/raw/reviews.csv.gz
+data/raw/calendar.csv.gz

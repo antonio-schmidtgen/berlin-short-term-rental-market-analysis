@@ -69,7 +69,6 @@ berlin-short-term-rental-market-analysis/
 ├── tableau/        the CSV files the dashboard uses
 ├── outputs/        charts saved from the EDA notebook
 ├── presentation/   my final findings and presentation script
-└── docs/           interview preparation notes
 ```
 
 ## How to run it

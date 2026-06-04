@@ -1,13 +1,14 @@
 # Berlin Short-Term Rental Market Analysis
 
-This is my data analyst capstone project. I looked at Berlin's short-term
+This is my data analyst capstone project. I explored Berlin's short-term
 rental market to understand what affects pricing, occupancy, and guest
 satisfaction.
 
-I used real Airbnb data for Berlin from Inside Airbnb (September 2025). The
-project goes through the normal analyst steps: cleaning the data in Python,
-exploring it with charts, answering business questions in SQL, and preparing
-KPI tables for a Tableau dashboard.
+I used real Airbnb data for Berlin from Inside Airbnb (September 2025). The 
+project follows a typical data analysis workflow: cleaning the data in Python, 
+exploring it with charts, using SQL to investigate the key questions, 
+and preparing KPI tables for a Tableau dashboard.
+
 
 ## The three questions I wanted to answer
 
@@ -48,7 +49,7 @@ versions into `data/clean/`. The raw files are never edited.
 ## Tools
 
 - Python with pandas and matplotlib (cleaning and charts)
-- PostgreSQL (SQL business analysis)
+- PostgreSQL (SQL analysis)
 - Tableau (KPI dashboard)
 - Jupyter Notebook and GitHub
 

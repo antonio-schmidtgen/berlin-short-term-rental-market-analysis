@@ -1,17 +1,16 @@
 -- ============================================================
 -- 02_business_analysis.sql
 -- Berlin Short-Term Rental Market Analysis
---
--- These queries answer the three project business questions using
--- beginner/intermediate SQL only: SELECT, JOIN, WHERE, GROUP BY,
--- ORDER BY, COUNT, AVG, SUM.
+-------------------------------------------
+
+-- These queries answer the three project questions using SQL.
 -- ============================================================
 
+-- ============================================================
+-- QUERY 1 — Market size: listings by district
+-- A simple starting point for understanding the Berlin market.
+-- ============================================================
 
--- ============================================================
--- QUERY 1 — Market size: how many listings per district?
--- A simple starting point to understand the Berlin market.
--- ============================================================
 SELECT
     neighbourhood_group_cleansed AS district,
     COUNT(*) AS total_listings
@@ -22,9 +21,8 @@ ORDER BY total_listings DESC;
 
 -- ============================================================
 -- QUERY 2 — Average price by room type
--- Only uses listings that have a price, and removes extreme
--- prices so the average is realistic.
--- Supports business question 2 (does room type affect pricing).
+-- Uses only listings with a price and removes extreme values
+-- to keep the averages realistic.
 -- ============================================================
 SELECT
     room_type,
@@ -39,9 +37,9 @@ ORDER BY avg_nightly_price DESC;
 
 -- ============================================================
 -- QUERY 3 — District performance summary
--- Brings price, occupancy, and review score together for each
--- district. This is the core query for business question 1.
+-- Combines price, occupancy, and review score for each district.
 -- ============================================================
+
 SELECT
     neighbourhood_group_cleansed AS district,
     COUNT(*) AS total_listings,
@@ -57,9 +55,10 @@ ORDER BY avg_occupancy_rate DESC;
 
 -- ============================================================
 -- QUERY 4 — Superhost vs non-superhost comparison
--- Compares the two host groups on price, occupancy, and review
--- score. This answers business question 3.
+-- Compares price, occupancy, and review score between the two
+-- host groups.
 -- ============================================================
+
 SELECT
     host_is_superhost,
     COUNT(*) AS total_listings,
@@ -75,11 +74,11 @@ ORDER BY avg_occupancy_rate DESC;
 
 -- ============================================================
 -- QUERY 5 — Top districts by estimated yearly revenue
--- Uses SUM to see which districts generate the most estimated
--- revenue in total. Supports marketplace performance analysis.
--- The column estimated_revenue_l365d holds Inside Airbnb's
--- estimated revenue over the last 365 days ("l365d").
+-- Compares districts using total estimated revenue.
+-- The column estimated_revenue_l365d contains Inside Airbnb's
+-- estimate for the last 365 days.
 -- ============================================================
+
 SELECT
     neighbourhood_group_cleansed AS district,
     COUNT(*) AS total_listings,
@@ -91,11 +90,12 @@ ORDER BY total_estimated_revenue DESC;
 
 
 -- ============================================================
--- QUERY 6 — Review activity by listing (JOIN example)
--- Joins listings and reviews to count how many reviews each
--- listing received. This shows a basic JOIN and GROUP BY.
+-- QUERY 6 — Review activity by listing
+-- Counts how many reviews each listing received by combining
+-- the listings and reviews tables.
 -- Only the 15 most-reviewed listings are shown.
 -- ============================================================
+
 SELECT
     l.id AS listing_id,
     l.name AS listing_name,
@@ -111,10 +111,11 @@ LIMIT 15;
 
 
 -- ============================================================
--- QUERY 7 — Recent review activity by district (JOIN + WHERE)
--- Counts reviews written from 2024 onwards, grouped by district.
--- This shows where guest activity has been highest recently.
+-- QUERY 7 — Recent review activity by district
+-- Counts reviews written from 2024 onwards to show where
+-- guest activity has been highest recently.
 -- ============================================================
+
 SELECT
     l.neighbourhood_group_cleansed AS district,
     COUNT(r.id) AS reviews_since_2024

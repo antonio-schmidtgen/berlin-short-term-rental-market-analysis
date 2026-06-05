@@ -1,12 +1,12 @@
 # Berlin Short-Term Rental Market Analysis
 
-This is my data analyst capstone project. I explored Berlin's short-term
+This is my data analyst capstone project. I looked at Berlin's short-term
 rental market to understand what affects pricing, occupancy, and guest
 satisfaction.
 
 I used real Airbnb data for Berlin from Inside Airbnb (September 2025). The 
-project follows a typical data analysis workflow: cleaning the data in Python, 
-exploring it with charts, using SQL to investigate the key questions, 
+project follows the usual analysis steps: cleaning the data in Python, 
+exploring it with charts, using SQL to answer the key questions, 
 and preparing KPI tables for a Tableau dashboard.
 
 
@@ -50,7 +50,7 @@ versions into `data/clean/`. The raw files are never edited.
 
 - Python with pandas and matplotlib (cleaning and charts)
 - PostgreSQL (SQL analysis)
-- Tableau (KPI dashboard)
+- Tableau (dashboard and KPI summaries)
 - Jupyter Notebook and GitHub
 
 ## How the project is organized
@@ -77,8 +77,8 @@ berlin-short-term-rental-market-analysis/
 Run the notebooks in order:
 
 1. `01_data_cleaning.ipynb` — cleans the data and saves it to `data/clean/`.
-2. `02_exploratory_data_analysis.ipynb` — makes the charts in `outputs/`.
-3. `03_kpi_summary.ipynb` — makes the KPI tables in `tableau/`.
+2. `02_exploratory_data_analysis.ipynb` — creates the charts in `outputs/`.
+3. `03_kpi_summary.ipynb` — creates the KPI tables in `tableau/`.
 
 For the SQL part, load the cleaned files into PostgreSQL and run the two
 scripts in `sql/`. For the dashboard, follow the guide in `tableau/`.

@@ -1,0 +1,13 @@
+district,total_listings,avg_occupancy_rate,avg_review_score,avg_availability_365,avg_nightly_price,superhost_percentage
+Tempelhof - Schöneberg,952,23.1,4.75,142.0,118.0,25.3
+Pankow,2164,23.1,4.77,150.0,136.0,26.3
+Mitte,3102,22.8,4.73,154.0,153.0,28.6
+Marzahn - Hellersdorf,121,22.2,4.78,186.0,97.0,21.5
+Friedrichshain-Kreuzberg,3108,21.8,4.77,132.0,125.0,23.3
+Reinickendorf,201,21.7,4.75,186.0,109.0,24.4
+Lichtenberg,413,20.8,4.73,141.0,116.0,23.5
+Charlottenburg-Wilm.,1529,19.6,4.71,181.0,130.0,25.0
+Steglitz - Zehlendorf,388,19.1,4.78,175.0,105.0,24.0
+Treptow - Köpenick,632,18.0,4.77,169.0,109.0,21.8
+Spandau,132,17.4,4.81,209.0,114.0,29.5
+Neukölln,1532,16.2,4.77,97.0,111.0,18.5

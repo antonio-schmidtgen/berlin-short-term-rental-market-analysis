@@ -9,6 +9,31 @@ project follows the usual analysis steps: cleaning the data in Python,
 exploring it with charts, using SQL to answer the key questions, 
 and preparing KPI tables for a Tableau dashboard.
 
+## Dashboard
+
+![Berlin Short-Term Rental Market Overview dashboard](dashboard_overview.jpg)
+
+The dashboard was built in Tableau. It shows the five headline KPIs, average
+price and occupancy by district, the room type breakdowns, the Superhost
+comparison, and the top districts by supply.
+
+Live interactive version: [View the dashboard on Tableau](https://dub01.online.tableau.com/t/neuefischedataanalytics/authoring/BerlinShort-TermRentalMarketOverview/Dashboard1#1)
+
+(Note: a permanent public link will be added here once the dashboard is
+published to Tableau Public.)
+
+## Key findings
+
+- Superhosts get booked about 3.4 times more often than non-superhosts (44.6%
+  occupancy against 13.0%). This is the standout result of the project.
+- The average nightly price is €129. Mitte is the most expensive district at
+  €153, and Marzahn-Hellersdorf the least at €97.
+- The average occupancy rate is 21.2%. Tempelhof-Schöneberg and Pankow are the
+  busiest districts at 23.1%, and Neukölln the quietest at 16.2%.
+- Room type drives price more than anything else. Hotel rooms average €211,
+  entire homes €144, private rooms €86, and shared rooms €48.
+- The average guest review score is 4.75 out of 5, so ratings are high across
+  the board and rarely separate one listing from another.
 
 ## The three questions I wanted to answer
 

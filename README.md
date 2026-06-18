@@ -94,7 +94,7 @@ berlin-short-term-rental-market-analysis/
 │   └── 02_business_analysis.sql
 ├── tableau/        the CSV files the dashboard uses
 ├── outputs/        charts saved from the EDA notebook
-├── presentation/   my final findings and presentation script
+├── presentation/   my final findings
 ```
 
 ## How to run it

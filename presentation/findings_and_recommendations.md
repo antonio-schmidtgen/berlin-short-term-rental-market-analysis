@@ -41,27 +41,34 @@ mixes very different products together.
 
 Berlin's 12 districts are not the same. Central districts like Mitte have the
 highest prices (around €153). Outer districts are cheaper. Occupancy also
-changes by district — Pankow and Tempelhof-Schöneberg had the strongest
+changes by district, Pankow and Tempelhof-Schöneberg had the strongest
 occupancy, while Neukölln was lower even though its price is mid-range.
 
 So a host should really be compared with similar listings in the same
 district, not with the whole city.
 
-### 3. Price on its own does not drive occupancy
+### 3. Listings are concentrated in central districts
+
+Supply is not spread evenly. A few central districts hold most of the listings:
+Friedrichshain-Kreuzberg (about 3,108) and Mitte (about 3,102) have the most,
+followed by Pankow, Neukölln, and Charlottenburg-Wilmersdorf. This matters
+because it shows where competition between hosts is strongest.
+
+### 4. Price on its own does not drive occupancy
 
 When I plotted price against occupancy, the points were spread out widely.
 There was no clear pattern where a higher price always means lower occupancy.
-Occupancy depends on more than price — location, room type, and host quality
+Occupancy depends on more than price, location, room type, and host quality
 all matter too.
 
-### 4. Superhosts get booked much more
+### 5. Superhosts get booked much more
 
 Superhosts had a much higher average occupancy rate than non-superhosts
 (about 45% compared to 13%). Their review scores were also a little higher.
 This tells me superhost status is connected to real performance, not just a
 badge.
 
-### 5. Review scores are high almost everywhere
+### 6. Review scores are high almost everywhere
 
 Most listings have review scores near the top of the scale, and the Berlin
 average is 4.75 out of 5. Because nearly everyone scores high, a low score is

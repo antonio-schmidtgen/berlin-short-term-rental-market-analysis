@@ -11,14 +11,14 @@ and preparing KPI tables for a Tableau dashboard.
 
 ## Dashboard
 
-![Berlin Short-Term Rental Market Overview dashboard](dashboard_overview.jpg)
-<img width="1910" height="1046" alt="dashboard_overview" src="https://github.com/user-attachments/assets/b7a987c6-1d11-43ac-b51c-c0d3b5ab1812" />
+(screenshot) [Berlin Short-Term Rental Market Overview dashboard](dashboard_overview.jpg)
+<img width="1500" height="1044" alt="dashboard_overview" src="https://github.com/user-attachments/assets/87b578b8-2ee1-4d33-8255-79d862552e35" />
 
 The dashboard was built in Tableau. It shows the five headline KPIs, average
 price and occupancy by district, the room type breakdowns, the Superhost
 comparison, and the top districts by supply.
 
-Live interactive version: [View the dashboard on Tableau](https://dub01.online.tableau.com/t/neuefischedataanalytics/authoring/BerlinShort-TermRentalMarketOverview/Dashboard1#1)
+Live interactive version: [Click to view the dashboard on Tableau](https://dub01.online.tableau.com/t/neuefischedataanalytics/authoring/BerlinShort-TermRentalMarketOverview/Dashboard1#1)
 
 (Note: a permanent public link will be added here once the dashboard is
 published to Tableau Public.)

@@ -1,0 +1,5 @@
+room_type,total_listings,avg_occupancy_rate,avg_review_score,avg_nightly_price
+Hotel room,110,23.5,4.67,211.0
+Entire home/apt,9663,22.3,4.76,144.0
+Private room,4399,18.2,4.75,86.0
+Shared room,102,39.1,4.55,48.0
